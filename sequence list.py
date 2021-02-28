@@ -27,12 +27,14 @@ for i in range(len(primers)):
 ##    print(gene)
     
     att = primerAttNo(primer, gene)
-    print(att)
+##    print(att)
     
 
 ##    atachNumber.append(att)
 ##
-
+    g= primers.count("G")
+    c = primers.count("C")
+print((g+c)/len(primers[0])
     
 ##print(atachNumber)
 
